@@ -4,7 +4,7 @@ const router = express.Router();
 
 const User = require('../models/User');
 
-const { check, validationResult } = require('express-validator/check');
+const { check, validationResult } = require('express-validator');
 
 const bcrypt = require('bcryptjs');
 
